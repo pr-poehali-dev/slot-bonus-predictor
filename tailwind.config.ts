@@ -61,6 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				casino: {
+					gold: '#FFD700',
+					'gold-dark': '#B8860B',
+					orange: '#FF6B35',
+					'orange-dark': '#CC5329',
+					navy: '#16213E',
+					'navy-light': '#1A1A2E',
+					electric: '#00F5FF'
 				}
 			},
 			borderRadius: {
@@ -84,11 +93,29 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'slot-spin': {
+					'0%': { transform: 'rotateY(0deg)' },
+					'100%': { transform: 'rotateY(360deg)' }
+				},
+				'pulse-gold': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.5' }
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'slot-spin': 'slot-spin 2s linear infinite',
+				'pulse-gold': 'pulse-gold 2s ease-in-out infinite',
+				'fade-in': 'fade-in 0.5s ease-out'
+			},
+			fontFamily: {
+				'orbitron': ['Orbitron', 'monospace']
 			}
 		}
 	},
