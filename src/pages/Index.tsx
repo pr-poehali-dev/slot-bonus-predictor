@@ -28,7 +28,7 @@ const Index = () => {
     setTimeout(() => {
       setPrediction({
         nextBonus: Math.floor(Math.random() * 50) + 10,
-        confidence: Math.floor(Math.random() * 30) + 70,
+        confidence: Math.floor(Math.random() * 8) + 92,
         pattern: 'Высокая активность',
         recommendation: 'Продолжить игру'
       });
