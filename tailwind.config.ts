@@ -63,13 +63,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				casino: {
-					gold: '#FFD700',
-					'gold-dark': '#B8860B',
-					orange: '#FF6B35',
-					'orange-dark': '#CC5329',
-					navy: '#16213E',
-					'navy-light': '#1A1A2E',
-					electric: '#00F5FF'
+					gold: '#C9B037',
+					'gold-light': '#E5D48C',
+					slate: '#1E293B',
+					'slate-light': '#334155',
+					'slate-dark': '#0F172A',
+					accent: '#64748B',
+					'accent-light': '#94A3B8'
 				}
 			},
 			borderRadius: {
@@ -115,7 +115,8 @@ export default {
 				'fade-in': 'fade-in 0.5s ease-out'
 			},
 			fontFamily: {
-				'orbitron': ['Orbitron', 'monospace']
+				'inter': ['Inter', 'sans-serif'],
+				'mono': ['JetBrains Mono', 'monospace']
 			}
 		}
 	},
