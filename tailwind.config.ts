@@ -63,13 +63,18 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				casino: {
-					gold: '#C9B037',
-					'gold-light': '#E5D48C',
-					slate: '#1E293B',
-					'slate-light': '#334155',
-					'slate-dark': '#0F172A',
-					accent: '#64748B',
-					'accent-light': '#94A3B8'
+					gold: '#D4AF37',
+					'gold-light': '#F7DC6F',
+					'gold-dark': '#B8860B',
+					red: '#8B0000',
+					'red-light': '#DC143C',
+					green: '#228B22',
+					'green-light': '#32CD32',
+					black: '#000000',
+					'black-light': '#1C1C1C',
+					'black-dark': '#0A0A0A',
+					purple: '#800080',
+					'purple-light': '#9370DB'
 				}
 			},
 			borderRadius: {
@@ -116,7 +121,7 @@ export default {
 			},
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
-				'mono': ['JetBrains Mono', 'monospace']
+				'playfair': ['Playfair Display', 'serif']
 			}
 		}
 	},
